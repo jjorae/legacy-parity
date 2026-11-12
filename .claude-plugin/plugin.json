@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "legacy-parity",
+  "description": "Port legacy stored procedures and screens to a new system and prove the new version shows the same rows and values.",
+  "version": "0.1.0",
+  "author": {
+    "name": "jjorae",
+    "url": "https://github.com/jjorae"
+  },
+  "homepage": "https://github.com/jjorae/legacy-parity",
+  "repository": "https://github.com/jjorae/legacy-parity",
+  "license": "MIT",
+  "keywords": ["legacy", "migration", "stored-procedure", "sql-server", "parity", "verification"],
+  "skills": ["./"]
+}

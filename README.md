@@ -27,7 +27,20 @@ The SQL examples are T-SQL (SQL Server). The workflow and most checklist items a
 
 ## Install
 
-For your user (all projects):
+As a Claude Code plugin (Claude Code 2.1.275 or later):
+
+```
+/plugin install legacy-parity --marketplace jjorae/legacy-parity
+```
+
+On older versions, add the marketplace first:
+
+```
+/plugin marketplace add jjorae/legacy-parity
+/plugin install legacy-parity@legacy-parity
+```
+
+Or copy it as a plain skill, for your user (all projects):
 
 ```bash
 git clone https://github.com/jjorae/legacy-parity.git ~/.claude/skills/legacy-parity
